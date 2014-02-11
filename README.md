@@ -1,4 +1,4 @@
 openhub-site
 ============
 
-Informational Site for OpenHub project
+Minimal informational Flask site for OpenHub project
