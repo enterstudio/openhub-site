@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/msr')
-def msr():
-    return render_template('msr.html', msr=True)
+@app.route('/docs')
+def docs():
+    return render_template('docs.html', docs=True)
 
 @app.route('/challenge')
 def challenge():
